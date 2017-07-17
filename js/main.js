@@ -586,7 +586,7 @@ function renderGraph() {
 				
 
 				tooltipTr = tooltipTable.append("tr");
-				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Total profit:");
+				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("合計利益:");
 				if (d.profit > 0)
 					tooltipTr.append("td").attr("class", "tooltipTdRightPos").text("+" + formatNumber(d.profit))
 						.append("div").attr("class", "gold");
@@ -595,7 +595,7 @@ function renderGraph() {
 						.append("div").attr("class", "gold");
 
 				tooltipTr = tooltipTable.append("tr");
-				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Profit per day:");
+				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("平均利益:");
 				if (d.averageProfit > 0)
 					tooltipTr.append("td").attr("class", "tooltipTdRightPos").text("+" + formatNumber(d.averageProfit))
 						.append("div").attr("class", "gold");
@@ -605,98 +605,98 @@ function renderGraph() {
 
 				if (options.buySeed) {
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Total seed loss:");
+					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("タネによる損失:");
 					tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text(formatNumber(d.seedLoss))
 						.append("div").attr("class", "gold");
 
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Seed loss per day:");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("タネによる平均損失:");
 					tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text(formatNumber(d.averageSeedLoss))
 						.append("div").attr("class", "gold");
 				}
 
 				if (options.buyFert) {
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Total fertilizer loss:");
+					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("肥料購入の損失:");
 					tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text(formatNumber(d.fertLoss))
 						.append("div").attr("class", "gold");
 
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Fertilizer loss per day:");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("肥料購入の平均損失:");
 					tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text(formatNumber(d.averageFertLoss))
 						.append("div").attr("class", "gold");
 				}
 
 
 				tooltipTr = tooltipTable.append("tr");
-				tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Produce sold:");
+				tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("売却方法:");
 				switch (options.produce) {
-					case 0: tooltipTr.append("td").attr("class", "tooltipTdRight").text("Raw crops"); break;
+					case 0: tooltipTr.append("td").attr("class", "tooltipTdRight").text("加工なし"); break;
 					case 1: 
 						if (d.produce.jar > 0)
 							tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.jarType);
 						else
-							tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text("None");
+							tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text("なし");
 						break;
 					case 2:
 						if (d.produce.keg > 0)
 							tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.kegType);
 						else
-							tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text("None");
+							tooltipTr.append("td").attr("class", "tooltipTdRightNeg").text("なし");
 						break;
 				}
 				tooltipTr = tooltipTable.append("tr");
-				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Duration:");
-				tooltipTr.append("td").attr("class", "tooltipTdRight").text(options.days + " days");
+				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("期間:");
+				tooltipTr.append("td").attr("class", "tooltipTdRight").text(options.days + " 日間");
 				tooltipTr = tooltipTable.append("tr");
-				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Harvests:");
+				tooltipTr.append("td").attr("class", "tooltipTdLeft").text("収穫回数:");
 				tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.harvests);
 
 				if (options.extra) {
 
-					tooltip.append("h3").attr("class", "tooltipTitleExtra").text("Crop info");
+					tooltip.append("h3").attr("class", "tooltipTitleExtra").text("詳細");
 					tooltipTable = tooltip.append("table")
 						.attr("class", "tooltipTable")
 						.attr("cellspacing", 0);
 
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Value (Normal):");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("売却方法 (星無し):");
 					tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.rawN)
 						.append("div").attr("class", "gold");
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Value (Silver):");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("売却方法 (銀):");
 					tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.rawS)
 						.append("div").attr("class", "gold");
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Value (Gold):");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("売却方法 (金):");
 					tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.rawG)
 						.append("div").attr("class", "gold");
 					tooltipTr = tooltipTable.append("tr");
 					if (d.produce.jar > 0) {
-						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Value (" + d.produce.jarType + "):");
+						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("売却方法 (" + d.produce.jarType + "):");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.jar)
 						.append("div").attr("class", "gold");
 					}
 					else {
-						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Value (Jar):");
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text("None");
+						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("売却方法 (保存ジャー):");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text("なし");
 					}
 					tooltipTr = tooltipTable.append("tr");
 					if (d.produce.keg > 0) {
-						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Value (" + d.produce.kegType + "):");
+						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("売却方法 (" + d.produce.kegType + "):");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.keg)
 						.append("div").attr("class", "gold");
 					}
 					else {
-						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Value (Keg):");
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text("None");
+						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("売却方法 (醸造ダル):");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text("なし");
 					}
 
 
 					var first = true;
 					if (d.seeds.pierre > 0) {
 						tooltipTr = tooltipTable.append("tr");
-						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Seeds (Pierre):");
+						tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("タネ値段 (ピエール):");
 						first = false;
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.pierre)
 						.append("div").attr("class", "gold");
@@ -704,22 +704,22 @@ function renderGraph() {
 					if (d.seeds.joja > 0) {
 						tooltipTr = tooltipTable.append("tr");
 						if (first) {
-							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Seeds (Joja):");
+							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("タネ値段 (Joja):");
 							first = false;
 						}
 						else
-							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Seeds (Joja):");
+							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("タネ値段 (Joja):");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.joja)
 						.append("div").attr("class", "gold");
 					}
 					if (d.seeds.special > 0) {
 						tooltipTr = tooltipTable.append("tr");
 						if (first) {
-							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Seeds (Special):");
+							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("タネ値段 (特殊):");
 							first = false;
 						}
 						else
-							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Seeds (Special):");
+							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("タネ値段 (特殊):");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.special)
 						.append("div").attr("class", "gold");
 						tooltipTr = tooltipTable.append("tr");
@@ -728,20 +728,20 @@ function renderGraph() {
 					}
 
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Time to grow:");
-					tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.growth.initial + " days");
+					tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("収穫可能まで:");
+					tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.growth.initial + " 日");
 					tooltipTr = tooltipTable.append("tr");
-					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Time to regrow:");
+					tooltipTr.append("td").attr("class", "tooltipTdLeft").text("再収穫:");
 					if (d.growth.regrow > 0)
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.growth.regrow + " days");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.growth.regrow + " 日");
 					else
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text("N/A");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text("該当なし");
 					if (d.produce.extra > 0) {
 						tooltipTr = tooltipTable.append("tr");
-						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Extra produce:");
+						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("余剰生産:");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.produce.extra);
 						tooltipTr = tooltipTable.append("tr");
-						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Extra chance:");
+						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("余剰生産確率:");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text((d.produce.extraPerc * 100) + "%");
 					}
 
@@ -961,6 +961,7 @@ function updateData() {
 	if (options.level >= 5) {
 		document.getElementById('check_skillsTill').disabled = false;
 		document.getElementById('check_skillsTill').style.cursor = "pointer";
+        document.getElementById('checkbox_till').style.cursor = "pointer";
 		options.skills.till = document.getElementById('check_skillsTill').checked;
 	}
 	else {

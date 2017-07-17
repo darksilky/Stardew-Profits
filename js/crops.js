@@ -10,14 +10,14 @@ var crops = {
 	// Spring
 	
 	"coffeebean": {
-		"name": "Coffee Bean", 
+		"name": "コーヒー豆", 
 		"url": "http://stardewvalleywiki.com/Coffee_Bean",
 		"img": "Coffee_Bean.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 2500, 
-			"specialLoc": "Travelling Cart", 
+			"specialLoc": "行商人", 
 			"specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
 		},
 		"growth": {
@@ -33,18 +33,18 @@ var crops = {
 			"jar": 0,
 			"keg": 30,
 			"jarType": "",
-			"kegType": "Coffee"
+			"kegType": "コーヒー"
 		}
 	},
 	"strawberry": {
-		"name": "Strawberry", 
+		"name": "イチゴ", 
 		"url": "http://stardewvalleywiki.com/Strawberry",
 		"img": "strawberry.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 100, 
-			"specialLoc": "Egg Festival", 
+			"specialLoc": "エッグハント", 
 			"specialUrl": "http://stardewvalleywiki.com/Egg_Festival"
 		},
 		"growth": {
@@ -59,19 +59,19 @@ var crops = {
 			"rawG": 180,
 			"jar": 290,
 			"keg": 360,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"rhubarb": {
-		"name": "Rhubarb", 
+		"name": "ルバーブ", 
 		"url": "http://stardewvalleywiki.com/Rhubarb",
 		"img": "rhubarb.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 100, 
-			"specialLoc": "Oasis", 
+			"specialLoc": "オアシス", 
 			"specialUrl": "http://stardewvalleywiki.com/Oasis" 
 		},
 		"growth": {
@@ -86,12 +86,12 @@ var crops = {
 			"rawG": 330,
 			"jar": 490,
 			"keg": 660,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"potato": {
-		"name": "Potato", 
+		"name": "ジャガイモ", 
 		"url": "http://stardewvalleywiki.com/Potato",
 		"img": "potato.png",
 		"seeds": {
@@ -113,12 +113,12 @@ var crops = {
 			"rawG": 120,
 			"jar": 210,
 			"keg": 180,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"cauliflower": {
-		"name": "Cauliflower", 
+		"name": "カリフラワー", 
 		"url": "http://stardewvalleywiki.com/Cauliflower",
 		"img": "cauliflower.png",
 		"seeds": {
@@ -140,12 +140,12 @@ var crops = {
 			"rawG": 262,
 			"jar": 400,
 			"keg": 393,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"greenbean": {
-		"name": "Green Bean", 
+		"name": "サヤエンドウ", 
 		"url": "http://stardewvalleywiki.com/Green_Bean",
 		"img": "greenbean.png",
 		"seeds": {
@@ -167,12 +167,12 @@ var crops = {
 			"rawG": 60,
 			"jar": 130,
 			"keg": 90,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"kale": {
-		"name": "Kale", 
+		"name": "ケール", 
 		"url": "http://stardewvalleywiki.com/Kale",
 		"img": "kale.png",
 		"seeds": {
@@ -194,12 +194,12 @@ var crops = {
 			"rawG": 165,
 			"jar": 270,
 			"keg": 247,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"garlic": {
-		"name": "Garlic", 
+		"name": "ニンニク", 
 		"url": "http://stardewvalleywiki.com/Garlic",
 		"img": "garlic.png",
 		"seeds": {
@@ -221,12 +221,12 @@ var crops = {
 			"rawG": 90,
 			"jar": 170,
 			"keg": 135,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"parsnip": {
-		"name": "Parsnip", 
+		"name": "パースニップ", 
 		"url": "http://stardewvalleywiki.com/Parsnip",
 		"img": "parsnip.png",
 		"seeds": {
@@ -248,12 +248,12 @@ var crops = {
 			"rawG": 52,
 			"jar": 120,
 			"keg": 78,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"bluejazz": {
-		"name": "Blue Jazz", 
+		"name": "ブルージャズ", 
 		"url": "http://stardewvalleywiki.com/Blue_Jazz",
 		"img": "bluejazz.png",
 		"seeds": {
@@ -280,7 +280,7 @@ var crops = {
 		}
 	},
 	"tulip": {
-		"name": "Tulip", 
+		"name": "チューリップ", 
 		"url": "http://stardewvalleywiki.com/Tulip",
 		"img": "tulip.png",
 		"seeds": {
@@ -310,7 +310,7 @@ var crops = {
 	// Summer
 
 	"blueberry": {
-		"name": "Blueberry", 
+		"name": "ブルーベリー", 
 		"url": "http://stardewvalleywiki.com/Blueberry",
 		"img": "blueberry.png",
 		"seeds": {
@@ -332,19 +332,19 @@ var crops = {
 			"rawG": 75,
 			"jar": 150,
 			"keg": 150,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"starfruit": {
-		"name": "Starfruit", 
+		"name": "スターフルーツ", 
 		"url": "http://stardewvalleywiki.com/Starfruit",
 		"img": "starfruit.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 400, 
-			"specialLoc": "Oasis", 
+			"specialLoc": "オアシス", 
 			"specialUrl": "http://stardewvalleywiki.com/Oasis" 
 		},
 		"growth": {
@@ -359,12 +359,12 @@ var crops = {
 			"rawG": 1125,
 			"jar": 1550,
 			"keg": 2250,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"redcabbage": {
-		"name": "Red Cabbage", 
+		"name": "赤キャベツ", 
 		"url": "http://stardewvalleywiki.com/Red_Cabbage",
 		"img": "redcabbage.png",
 		"seeds": {
@@ -386,12 +386,12 @@ var crops = {
 			"rawG": 390,
 			"jar": 570,
 			"keg": 585,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"hops": {
-		"name": "Hops", 
+		"name": "ホップ", 
 		"url": "http://stardewvalleywiki.com/Hops",
 		"img": "hops.png",
 		"seeds": {
@@ -413,12 +413,12 @@ var crops = {
 			"rawG": 37,
 			"jar": 100,
 			"keg": 300,
-			"jarType": "Pickles",
-			"kegType": "Pale Ale"
+			"jarType": "ピクルス",
+			"kegType": "ペールエール"
 		}
 	},
 	"melon": {
-		"name": "Melon", 
+		"name": "メロン", 
 		"url": "http://stardewvalleywiki.com/Melon",
 		"img": "melon.png",
 		"seeds": {
@@ -440,12 +440,12 @@ var crops = {
 			"rawG": 375,
 			"jar": 550,
 			"keg": 750,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"hotpepper": {
-		"name": "Hot Pepper", 
+		"name": "トウガラシ", 
 		"url": "http://stardewvalleywiki.com/Hot_Pepper",
 		"img": "hotpepper.png",
 		"seeds": {
@@ -467,12 +467,12 @@ var crops = {
 			"rawG": 60,
 			"jar": 130,
 			"keg": 120,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"tomato": {
-		"name": "Tomato", 
+		"name": "トマト", 
 		"url": "http://stardewvalleywiki.com/Tomato",
 		"img": "tomato.png",
 		"seeds": {
@@ -494,12 +494,12 @@ var crops = {
 			"rawG": 90,
 			"jar": 170,
 			"keg": 135,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"radish": {
-		"name": "Radish", 
+		"name": "ラディッシュ", 
 		"url": "http://stardewvalleywiki.com/Radish",
 		"img": "radish.png",
 		"seeds": {
@@ -521,12 +521,12 @@ var crops = {
 			"rawG": 135,
 			"jar": 230,
 			"keg": 202,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"summerspangle": {
-		"name": "Summer Spangle", 
+		"name": "サマースパングル", 
 		"url": "http://stardewvalleywiki.com/Summer_Spangle",
 		"img": "summerspangle.png",
 		"seeds": {
@@ -553,7 +553,7 @@ var crops = {
 		}
 	},
 	"poppy": {
-		"name": "Poppy", 
+		"name": "ポピー", 
 		"url": "http://stardewvalleywiki.com/Poppy",
 		"img": "poppy.png",
 		"seeds": {
@@ -580,7 +580,7 @@ var crops = {
 		}
 	},
 	"wheat": {
-		"name": "Wheat", 
+		"name": "小麦", 
 		"url": "http://stardewvalleywiki.com/Wheat",
 		"img": "wheat.png",
 		"seeds": {
@@ -602,12 +602,12 @@ var crops = {
 			"rawG": 37,
 			"jar": 100,
 			"keg": 200,
-			"jarType": "Pickles",
-			"kegType": "Beer"
+			"jarType": "ピクルス",
+			"kegType": "ビール"
 		}
 	},
 	"corn": {
-		"name": "Corn", 
+		"name": "トウモロコシ", 
 		"url": "http://stardewvalleywiki.com/Corn",
 		"img": "corn.png",
 		"seeds": {
@@ -629,22 +629,22 @@ var crops = {
 			"rawG": 75,
 			"jar": 150,
 			"keg": 112,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 
 	// Autumn
 
 	"sweetgemberry": {
-		"name": "Sweet Gem Berry", 
+		"name": "スイートジェムベリー", 
 		"url": "http://stardewvalleywiki.com/Sweet_Gem_Berry",
 		"img": "sweetgemberry.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 1000, 
-			"specialLoc": "Traveling Cart", 
+			"specialLoc": "行商人", 
 			"specialUrl": "http://stardewvalleywiki.com/Traveling_Cart" 
 		},
 		"growth": {
@@ -664,7 +664,7 @@ var crops = {
 		}
 	},
 	"cranberries": {
-		"name": "Cranberries", 
+		"name": "クランベリー", 
 		"url": "http://stardewvalleywiki.com/Cranberries",
 		"img": "cranberries.png",
 		"seeds": {
@@ -686,12 +686,12 @@ var crops = {
 			"rawG": 112,
 			"jar": 200,
 			"keg": 225,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"pumpkin": {
-		"name": "Pumpkin", 
+		"name": "カボチャ", 
 		"url": "http://stardewvalleywiki.com/Pumpkin",
 		"img": "pumpkin.png",
 		"seeds": {
@@ -713,12 +713,12 @@ var crops = {
 			"rawG": 480,
 			"jar": 690,
 			"keg": 720,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"grape": {
-		"name": "Grape", 
+		"name": "ブドウ", 
 		"url": "http://stardewvalleywiki.com/Grape",
 		"img": "grape.png",
 		"seeds": {
@@ -740,12 +740,12 @@ var crops = {
 			"rawG": 120,
 			"jar": 210,
 			"keg": 240,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	},
 	"artichoke": {
-		"name": "Artichoke", 
+		"name": "アーティチョーク", 
 		"url": "http://stardewvalleywiki.com/Artichoke",
 		"img": "artichoke.png",
 		"seeds": {
@@ -767,19 +767,19 @@ var crops = {
 			"rawG": 240,
 			"jar": 370,
 			"keg": 360,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"beet": {
-		"name": "Beet", 
+		"name": "ビーツ", 
 		"url": "http://stardewvalleywiki.com/Beet",
 		"img": "beet.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 20, 
-			"specialLoc": "Oasis", 
+			"specialLoc": "オアシス", 
 			"specialUrl": "http://stardewvalleywiki.com/Oasis" 
 		},
 		"growth": {
@@ -794,12 +794,12 @@ var crops = {
 			"rawG": 150,
 			"jar": 250,
 			"keg": 225,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"eggplant": {
-		"name": "Eggplant", 
+		"name": "ナス",
 		"url": "http://stardewvalleywiki.com/Eggplant",
 		"img": "eggplant.png",
 		"seeds": {
@@ -821,12 +821,12 @@ var crops = {
 			"rawG": 90,
 			"jar": 170,
 			"keg": 135,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"amaranth": {
-		"name": "Amaranth", 
+		"name": "アマランサス",
 		"url": "http://stardewvalleywiki.com/Amaranth",
 		"img": "amaranth.png",
 		"seeds": {
@@ -848,12 +848,12 @@ var crops = {
 			"rawG": 225,
 			"jar": 350,
 			"keg": 337,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"yam": {
-		"name": "Yam", 
+		"name": "サツマイモ", 
 		"url": "http://stardewvalleywiki.com/Yam",
 		"img": "yam.png",
 		"seeds": {
@@ -875,12 +875,12 @@ var crops = {
 			"rawG": 240,
 			"jar": 370,
 			"keg": 360,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"fairyrose": {
-		"name": "Fairy Rose", 
+		"name": "フェアリーローズ", 
 		"url": "http://stardewvalleywiki.com/Fairy_Rose",
 		"img": "fairyrose.png",
 		"seeds": {
@@ -907,7 +907,7 @@ var crops = {
 		}
 	},
 	"bokchoy": {
-		"name": "Bok Choy", 
+		"name": "チンゲンサイ", 
 		"url": "http://stardewvalleywiki.com/Bok_Choy",
 		"img": "bokchoy.png",
 		"seeds": {
@@ -929,12 +929,12 @@ var crops = {
 			"rawG": 120,
 			"jar": 210,
 			"keg": 180,
-			"jarType": "Pickles",
-			"kegType": "Juice"
+			"jarType": "ピクルス",
+			"kegType": "ジュース"
 		}
 	},
 	"sunflower": {
-		"name": "Sunflower", 
+		"name": "ヒマワリ", 
 		"url": "http://stardewvalleywiki.com/Sunflower",
 		"img": "sunflower.png",
 		"seeds": {
@@ -964,14 +964,14 @@ var crops = {
 	// Special
 
 	"ancientfruit": {
-		"name": "Ancient Fruit", 
+		"name": "古代のフルーツ", 
 		"url": "http://stardewvalleywiki.com/Ancient_Fruit",
 		"img": "ancientfruit.png",
 		"seeds": {
 			"pierre": 0, 
 			"joja": 0, 
 			"special": 800, 
-			"specialLoc": "Traveling Cart", 
+			"specialLoc": "行商人", 
 			"specialUrl": "http://stardewvalleywiki.com/Traveling_Cart" 
 		},
 		"growth": {
@@ -986,8 +986,8 @@ var crops = {
 			"rawG": 825,
 			"jar": 1150,
 			"keg": 1650,
-			"jarType": "Jelly",
-			"kegType": "Wine"
+			"jarType": "ジャム",
+			"kegType": "ワイン"
 		}
 	}
 };
