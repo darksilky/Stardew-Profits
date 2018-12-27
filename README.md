@@ -1,3 +1,6 @@
+# Page
+https://darksilky.github.io/Stardew-Profits-Japanese/
+
 # Stardew Profits
 Stardew Profits is a calculation and graphing tool designed to help the players of the popular game "Stardew Valley" to easily calculate and compare their profits from planting different crops under different conditions.
 
